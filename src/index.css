@@ -1,0 +1,19 @@
+html {
+  background-color: #ede9fe;
+}
+
+body,
+h1,
+h2,
+h3,
+p,
+label,
+input,
+textarea,
+a {
+  color: #4b0082;
+}
+
+main.container {
+  padding-top: 2rem;
+}
