@@ -77,3 +77,23 @@ textarea:focus {
   background-color: #d8b4fe;
   color: #ffffff;
 }
+
+.card-header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.edit-icon {
+  color: var(--text-heading);
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 0.2rem;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+.edit-icon:hover {
+  background-color: var(--primary-light);
+  color: white;
+}

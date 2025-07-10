@@ -1,8 +1,14 @@
 import { Link } from "react-router-dom";
+import { Pencil } from "lucide-react";
 
 const CreatorCard = ({ creator }) => {
   return (
     <article className="creator-card">
+      <div className="card-header">
+        <Link to={`/edit/${creator.id}`} className="edit-icon" title="Edit">
+          <Pencil size={20} />
+        </Link>
+      </div>
       {creator.imageURL && (
         <img
           src={creator.imageURL}
