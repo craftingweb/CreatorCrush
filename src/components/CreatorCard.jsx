@@ -1,6 +1,6 @@
 const CreatorCard = ({ creator }) => {
   return (
-    <article className="card">
+    <article className="creator-card">
       {creator.imageURL && (
         <img
           src={creator.imageURL}
