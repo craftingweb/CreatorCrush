@@ -35,8 +35,8 @@ textarea:focus {
 }
 
 .creator-card {
-  background-color: #ffffff; /* white card */
-  color: #4b0082; /* indigo text */
+  background-color: #ffffff;
+  color: #4b0082;
   border: 1px solid #dcd6f7;
   border-radius: 16px;
   padding: 1rem;
@@ -53,4 +53,27 @@ textarea:focus {
   border-radius: 12px;
   max-width: 100%;
   margin-bottom: 0.5rem;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+  margin-top: 1rem;
+  flex-wrap: wrap;
+}
+
+.themed-button {
+  background-color: #f3e8ff;
+  color: #6b21a8;
+  border: 2px solid #e9d5ff;
+  border-radius: 50px;
+  padding: 0.5rem 1.5rem;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  transition: all 0.2s ease;
+}
+
+.themed-button:hover {
+  background-color: #d8b4fe;
+  color: #ffffff;
 }
