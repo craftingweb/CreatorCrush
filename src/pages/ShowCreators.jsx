@@ -20,7 +20,9 @@ const ShowCreators = () => {
 
   return (
     <main className="container">
-      <h1>CreatorCrush</h1>
+      <div className="title-container">
+        <h1>CreatorCrush</h1>
+      </div>
       {creators.length === 0 ? (
         <p>Add your favorite creators</p>
       ) : (
