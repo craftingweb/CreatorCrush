@@ -176,3 +176,37 @@ textarea:focus {
   margin-bottom: 2rem;
   letter-spacing: 2px;
 }
+
+.add-button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+  margin-top: 14rem;
+}
+
+.add-button {
+  background: linear-gradient(to right, #8b5cf6, #ec4899);
+  color: white;
+  padding: 0.75rem 1.4rem;
+  font-size: 1rem;
+  border-radius: 12px;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: opacity 0.3s;
+}
+
+.add-button:hover {
+  opacity: 0.85;
+}
+
+.add-button svg {
+  width: 32px;
+  height: 32px;
+  fill: white;
+}
+
+h1 {
+  font-family: "Chewy", cursive;
+  font-size: 3rem;
+  color: #4b0082;
+}
