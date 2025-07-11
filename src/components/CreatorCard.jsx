@@ -28,20 +28,26 @@ const CreatorCard = ({ creator }) => {
           <img
             src={creator.imageURL}
             alt={creator.name}
-            style={{ maxWidth: "100%", borderRadius: "var(--radius)" }}
+            style={{
+              width: "100%",
+              borderRadius: "1rem",
+              marginBottom: "1rem",
+            }}
           />
         )}
-        <h2>{creator.name}</h2>
-        <p>{creator.description}</p>
-        <a
-          href={creator.url}
-          target="_blank"
-          rel="noopener noreferrer"
-          role="button"
-          className="themed-button"
-        >
-          Visit Channel
-        </a>
+        <div className="info-wrapper">
+          <h2>{creator.name}</h2>
+          <p>{creator.description}</p>
+          <a
+            href={creator.url}
+            target="_blank"
+            rel="noopener noreferrer"
+            role="button"
+            className="themed-button"
+          >
+            Visit Channel
+          </a>
+        </div>
       </article>
 
       {showConfirm && (

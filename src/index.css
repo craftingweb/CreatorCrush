@@ -35,7 +35,7 @@ textarea:focus {
 }
 
 .creator-card {
-  background-color: #ffffff;
+  background-color: #f5f3ff;
   color: #4b0082;
   border: 1px solid #dcd6f7;
   border-radius: 16px;
@@ -209,4 +209,13 @@ h1 {
   font-family: "Chewy", cursive;
   font-size: 3rem;
   color: #4b0082;
+}
+
+.info-wrapper {
+  text-align: center;
+}
+
+.add-title {
+  text-align: center;
+  margin-bottom: 1rem;
 }

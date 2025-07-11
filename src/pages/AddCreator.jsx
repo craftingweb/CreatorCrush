@@ -35,7 +35,7 @@ const AddCreator = () => {
 
   return (
     <main className="container">
-      <h1>Add a New Creator</h1>
+      <h1 className="add-title">Add a New Creator</h1>
       <form onSubmit={handleSubmit(onSubmit)}>
         <label>
           Name:
