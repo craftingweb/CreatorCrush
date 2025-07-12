@@ -33,7 +33,10 @@ const ShowCreators = () => {
           ))}
         </section>
       )}
-      <div className="add-button-container">
+      <div
+        className="add-button-container"
+        style={{ marginTop: creators.length === 0 ? "14rem" : "2rem" }}
+      >
         <Link to="/new" className="add-button" title="Add a Creator">
           <svg
             xmlns="http://www.w3.org/2000/svg"

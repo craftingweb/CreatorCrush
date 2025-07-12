@@ -36,12 +36,21 @@ textarea:focus {
 
 .creator-card {
   background-color: #f5f3ff;
-  color: #4b0082;
-  border: 1px solid #dcd6f7;
-  border-radius: 16px;
+  border-radius: 1rem;
   padding: 1rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
-  transition: transform 0.2s ease;
+  text-align: center;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  margin: 1rem;
+  flex-shrink: 0;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  padding: 1rem;
 }
 
 .creator-card:hover {
@@ -107,6 +116,8 @@ textarea:focus {
   padding: 0.3rem;
   border-radius: 6px;
   transition: background-color 0.2s ease;
+  margin-top: -10px;
+  margin-bottom: 10px;
 }
 
 .icon-button:hover {
@@ -181,7 +192,6 @@ textarea:focus {
   display: flex;
   justify-content: center;
   margin-bottom: 2rem;
-  margin-top: 14rem;
 }
 
 .add-button {
